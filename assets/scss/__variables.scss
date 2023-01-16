@@ -1,0 +1,29 @@
+$blue: #5083f3;
+$black: #000;
+$green: #01ee68;
+$beige: #cbbfaf;
+$gray: #b4c0cf;
+$grayMiddle: #dce2ea;
+$grayLight: #eef0f3;
+$white: #fff;
+
+$pc: 1360px; // PC screen size.
+$tablet: 720px; // Tablet screen size.
+$phone: 360px; // Phone screen size.
+$laptop: 1024px;
+
+@mixin mq($media) {
+	@if $media==phone {
+		@media only screen and (max-width: $tablet - 1) {
+			@content;
+		}
+	} @else if $media==tablet {
+		@media only screen and (max-width: $pc) {
+			@content;
+		}
+	} @else if $media == pc {
+		@media only screen and (min-width: $pc + 1) {
+			@content;
+		}
+	}
+}

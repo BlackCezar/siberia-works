@@ -1,0 +1,75 @@
+body {
+	cursor: url('~assets/imgs/cursors/default.png'), auto;
+	margin: 0;
+	height: 100%;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5 {
+	cursor: url('~assets/imgs/cursors/text.png'), text;
+}
+
+a,
+button {
+	cursor: url('~assets/imgs/cursors/hand-pointing.png'), pointer;
+}
+
+@font-face {
+	font-family: 'Gogh';
+	font-style: normal;
+	font-weight: 400;
+	src: url('~assets/fonts/gogh/Gogh-Regular.ttf');
+}
+@font-face {
+	font-family: 'Gogh';
+	font-style: italic;
+	font-weight: 400;
+	src: url('~assets/fonts/gogh/Gogh-RegularItalic.ttf');
+}
+@font-face {
+	font-family: 'Gogh';
+	font-style: normal;
+	font-weight: 700;
+	src: url('~assets/fonts/gogh/Gogh-Bold.ttf');
+}
+@font-face {
+	font-family: 'Gogh';
+	font-style: italic;
+	font-weight: 700;
+	src: url('~assets/fonts/gogh/Gogh-BoldItalic.ttf');
+}
+
+@font-face {
+	font-family: 'Blacker';
+	font-style: normal;
+	font-weight: 400;
+	src: url('~assets/fonts/blacker/Blacker-Display-Regular-trial.ttf');
+}
+@font-face {
+	font-family: 'Blacker';
+	font-style: italic;
+	font-weight: 400;
+	src: url('~assets/fonts/blacker/Blacker-Display-Regular-Italic-trial.ttf');
+}
+@font-face {
+	font-family: 'Blacker';
+	font-style: normal;
+	font-weight: 700;
+	src: url('~assets/fonts/blacker/Blacker-Display-Bold-trial.ttf');
+}
+@font-face {
+	font-family: 'Blacker';
+	font-style: italic;
+	font-weight: 700;
+	src: url('~assets/fonts/blacker/Blacker-Display-Bold-italic-trial.ttf');
+}
+
+.layout {
+	min-height: 100vh;
+	font-family: 'Gogh', sans-serif;
+}
